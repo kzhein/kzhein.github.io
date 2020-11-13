@@ -1,0 +1,92 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro .profile {
+  text-align: right;
+}
+
+.intro .profile img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.intro .details h1 {
+  font-weight: bold;
+  color: #150485;
+}
+
+.intro .details p {
+  font-size: 1.3rem;
+}
+
+.intro .details .contacts i {
+  font-size: 1.6rem;
+}
+
+.intro .details .contacts i.fa-github {
+  color: #590995;
+}
+.intro .details .contacts i.fa-linkedin {
+  color: #150485;
+}
+.intro .details .contacts i.fa-twitter {
+  color: #c62a88;
+}
+.intro .details .contacts i.fa-facebook {
+  color: #03c4a1;
+}
+
+/* Creations Section */
+.creations {
+  margin-top: 4rem;
+}
+
+.creations h2 {
+  font-weight: bold;
+}
+
+.creations .project {
+  margin-top: 2.2rem;
+}
+
+.creations .project:last-child {
+  margin-bottom: 2rem;
+}
+
+.creations .project .project-details h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #c62a88;
+}
+
+.creations .project .project-details .tech {
+  color: #4b3c3c;
+  font-weight: bold;
+}
+
+.creations .project .project-details .btn {
+  background-color: #03c4a1;
+}
+
+@media only screen and (max-width: 767px) {
+  .intro .profile {
+    text-align: center;
+  }
+
+  .intro .profile img {
+    width: 150px;
+  }
+
+  .intro .details {
+    text-align: center;
+  }
+
+  .creations {
+    margin-top: 1.5rem;
+  }
+
+  .creations .project {
+    margin-top: 1.3rem;
+  }
+}
